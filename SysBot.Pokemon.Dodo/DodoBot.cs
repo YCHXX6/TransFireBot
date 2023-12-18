@@ -59,8 +59,8 @@ namespace SysBot.Pokemon.Dodo
             EchoUtil.Forwarders.Add(msg => { if (msg.Contains("团")) SendChannelMessage(msg, channelId); });
             EchoUtil.Forwarders.Add(msg => { if (msg.Contains("打")) SendChannelMessage(msg, channelId); });
             if (string.IsNullOrWhiteSpace(channelId)) return;
-            //SendChannelMessage("欢迎使用传火机器人！", channelId);
-            SendChannelMessageAll("欢迎使用传火机器人！", channelId);
+            //SendChannelMessage("欢迎使用梵玥的机器人！", channelId);
+            SendChannelMessageAll("欢迎使用梵玥的机器人！", channelId);
             var Msg = "";
             if (!DodoBot<T>.Info.Hub.Config.Legality.AllowUseFile)
             {
